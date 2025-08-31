@@ -1,0 +1,46 @@
+# Model files (too large for git)
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.pkl
+
+# Checkpoints and large data
+sentiment_improved_model/
+*.h5
+*.hdf5
+
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+.huggingface/
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+venv/
+env/
+.venv/
+.env
+
+# Temporary files
+*.tmp
+*.temp
+
+# llama.cpp (downloaded repository)
+llama.cpp/
